@@ -1,0 +1,25 @@
+li {
+  font-family: 'Roboto';
+  margin-right: 20px;
+  font-size: 1.4rem;
+}
+.load {
+  height: 20px;
+  width: 20px;
+}
+.suggestions {
+  display: flex;
+  justify-content: space-between;
+}
+.arrow-button {
+  background-color: transparent;
+  cursor: pointer;
+  border: none;
+  outline: none;
+}
+@media screen and (max-width:767px)
+{
+  li{
+    font-size: 12px;
+  }
+}

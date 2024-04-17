@@ -1,0 +1,51 @@
+.bg {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+.logo {
+  height: 200px;
+  width: 600px;
+}
+.card {
+  background-color: #ffffff;
+  width: 700px;
+  border-radius: 20px;
+  border: 1px solid #bfbfbf;
+  box-shadow: 0px 0px 10px #bfbfbf;
+}
+input {
+  border-width: 0px;
+  width: 650px;
+  outline: 0;
+  font-size: 1.4rem;
+}
+.img {
+  height: 25px;
+  width: 25px;
+}
+.innerCard {
+  display: flex;
+  align-items: center;
+  margin: 12px;
+  margin-left: 30px;
+  margin-bottom: 20px;
+}
+ul {
+  list-style-type: none;
+}
+@media screen and (max-width: 767px) {
+  .logo {
+    height: 50px;
+    width: 140px;
+  }
+  .card {
+    width: 250px;
+  }
+  input {
+    width: 150px;
+    font-size: 15px;
+  }
+}
